@@ -8,10 +8,12 @@ The state space has 37 dimensions and action space contains 4 discrete actions. 
 
 ### Getting Started
 
-To run this project, you'll need:
-- Jupyter Notebook
-
 Clone this repo and open up Navigation.ipynb as jupyter notebook.
+
+To run this project, you'll need:
+- Download and install Anaconda with python 3.6+ if haven't
+- Use terminal to go into python
+- Install necessary libs with: pip install .
 
 ### Instructions
 
