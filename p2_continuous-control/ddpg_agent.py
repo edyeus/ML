@@ -51,8 +51,8 @@ class Agent():
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, random_seed)
 
-    # def normalize(self):
-    #     self.memory.normalize()
+    def normalize(self):
+        self.memory.normalize()
 
     def step(self, state, action, reward, next_state, done):
         """Save experience in replay memory, and use random sample from buffer to learn."""
